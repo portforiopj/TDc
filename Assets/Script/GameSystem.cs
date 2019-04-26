@@ -29,6 +29,7 @@ public class GameSystem : MonoBehaviour
     public int G_wave; // 웨이브 수
     public int[] G_roundunit; // 나오는 유닛 수
     public float G_roundgen; // 유닛 나오는 시간
+    public int[] G_gold = new int[3];
     void Awake()
     {
         if (instance == null)
